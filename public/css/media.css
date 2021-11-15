@@ -1,0 +1,32 @@
+/* 768px */
+@media(max-width: 768px) {
+  .centered-form__box {
+    padding: 16px;
+    width: 300px;
+  }
+
+  .chat {
+    flex-direction: column;
+  }
+
+  .chat__sidebar {
+    height: 200px;
+    width: 100%;
+  }
+
+  .chat__main {
+    height: calc(100vh - 200px);
+  }
+}
+
+/* 480px */
+@media(max-width: 480px) {
+  .compose {
+    flex-direction: column-reverse;
+  }
+
+  .compose form {
+    margin-right: 0px;
+    margin-top: 8px;
+  }
+}
